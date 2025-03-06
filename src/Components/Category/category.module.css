@@ -1,23 +1,22 @@
 .category{
     height: 350px;
-    width: 350px;
+    width: 290px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .category img {
     width: 100%;
+    height: 80%;
     object-fit: contain;
     max-height: 250px;
     padding: 0px 10px;
 }
 .category a {
     text-decoration: none;
-    /* font-size: 14px; */
+    font-size: 14px;
     color: rgb(35,35,35);
 }
-.category h2,
-
-.category p {
+.category h2,.category p{
     padding: 5px;
     margin-left: 15px;
 }
@@ -32,10 +31,10 @@
     position: relative;
     margin-top: -10%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 1600px;
-    gap: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    gap: 7px;
+    /* margin-right: auto;
+    margin-left: auto; */
     place-items: center;
 }
